@@ -1,0 +1,27 @@
+/* * {
+  background: #000;
+} */
+.main>p{
+   color: red;
+}
+
+
+input {
+  width: 200px;
+  height: 20px;
+  color: #000;
+}
+button {
+   background: #fff;
+   padding: 10px 50px;
+   background: aqua;
+   cursor: pointer;
+   border-radius: 45px;
+}
+form{
+   background: #ccc;
+   height: 300px;
+   width: 400px;
+   margin-left: 40px;
+   margin-top: 40px;
+}
