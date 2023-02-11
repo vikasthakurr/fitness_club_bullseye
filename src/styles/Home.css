@@ -1,27 +1,46 @@
 /* * {
   background: #000;
 } */
-.main>p{
-   color: red;
+.main {
+  position: relative;
 }
-
+.main > p {
+  color: red;
+}
 
 input {
   width: 200px;
   height: 20px;
   color: #000;
+  margin-top: 25px;
 }
 button {
-   background: #fff;
-   padding: 10px 50px;
-   background: aqua;
-   cursor: pointer;
-   border-radius: 45px;
+  padding: 10px 50px;
+  background: aqua;
+  cursor: pointer;
+  border-radius: 45px;
 }
-form{
-   background: #ccc;
-   height: 300px;
-   width: 400px;
-   margin-left: 40px;
-   margin-top: 40px;
+form {
+  background: #ccc;
+  height: 300px;
+  width: 400px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.data {
+  background: #ccc;
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 38%;
+}
+a {
+  position: absolute;
+  top: 85% ;
+  left: 60%;
+  /* background: #fff; */
+  padding: 10px 50px;
+  background: aqua;
+  cursor: pointer;
+  border-radius: 45px;
 }

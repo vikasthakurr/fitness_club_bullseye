@@ -63,7 +63,7 @@ function Home() {
             </div>
          )}
          {showData && formData && (
-            <button onClick={handleDeleteAll}>Delete All</button>
+            <a className="dt" onClick={handleDeleteAll}>Delete All</a>
          )}
       </div>
    );
